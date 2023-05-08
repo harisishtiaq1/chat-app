@@ -14,7 +14,6 @@ import { update, ref as dbRef } from "firebase/database";
 import ProfileAvatar from "../ProfileAvatar";
 
 const fileInputTypes = ".png, .jpeg, .jpg";
-
 const acceptedFileTypes = ["image/png", "image/jpeg", "image/pjpeg"];
 const isValidFile = (file) => acceptedFileTypes.includes(file.type);
 
